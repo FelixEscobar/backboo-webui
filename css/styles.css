@@ -1,0 +1,198 @@
+/*
+Estilos sitio web
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap');
+
+/* index */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+ 
+}
+
+.container{
+    margin: 15px 230px;
+}
+
+p{
+    font-size: 1.5em;
+}
+
+.content-one{
+    display: flex;
+     }
+
+button {
+    background-color: #E62C1B;
+    color: #fff;
+    border-radius: 17px;
+    padding: 10px 20px;
+    border: 0px;
+    font-weight: 700;
+
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+input[type="email"]{
+    border-radius: 17px;
+    border: 1px solid #B2A7AF;
+    padding: 10px 20px;
+    outline: none;
+}
+
+h1{
+    font-size: 4em;
+    font-weight: 900;
+    margin: 0px;
+}
+
+h3{
+    font-size: 4em;
+    font-weight: 300;   
+    margin: 0px;
+}
+
+header{
+    display: flex;
+}
+
+nav{
+    flex: 1;
+    margin-right: 25px;
+    }
+
+nav ul{
+overflow: hidden;
+padding: 0px;
+margin: 0px;
+float: right;
+}
+
+nav ul li {
+    list-style: none;
+    float: left;
+    margin: 5px 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #B2A7AF;
+    font-weight: 700;
+    font-size: 1.2em;
+
+}
+
+nav ul li a:hover {
+    color: #E62C1B ;
+}
+
+.box-content {
+    padding-top: 2px;
+    margin-top: 60px;
+    background-image: url(../images/img1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain ;
+}
+
+.shop-buttoms{
+    display: flex;
+    margin: 10px 0px;
+
+}
+
+.shop-buttoms div {
+    margin-right: 30px;
+
+}
+
+.shop-buttoms div img {
+    width: 200px;
+    }
+    
+form {
+    margin: 100px 0px;
+}
+
+.box-middle{
+    width: 45%;
+}
+
+.box-middle p {
+    text-align: justify;
+}
+
+
+
+/* Products section*/
+
+.box {
+ width: 965px;
+ padding-top: 2px;
+ margin-top: 60px;
+ }
+
+.centered-text{
+    text-align: center; 
+}
+
+.aligned-text{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+   
+}
+
+h2{
+    font-size: 2em;
+    font-weight: 300;   
+    margin: 0px;
+}
+
+.box-left{
+    width: 45%;
+    float: left;
+    background-image: url(../images/img2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.box-rigth{
+    width: 50%;
+    float: right;
+    padding-top: 4px;
+    margin-top: 2px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 1em;
+  padding: 2px;
+}
+
+.block{
+  margin: 2px;
+  padding: 2px;
+}
+
+.block1{
+    margin: 2px;
+    padding: 2px;
+    height: 700px;
+  }
+
+h4{
+    font-size: 1.5em;
+    font-weight: 700;   
+    margin: 0px;
+}
+
